@@ -31,5 +31,5 @@ export function makeRoomCode(): string {
 }
 
 export function peerIdFor(code: string): string {
-  return `telefon-wii-${code.toLowerCase()}`;
+  return `stoey-games-${code.toLowerCase()}`;
 }

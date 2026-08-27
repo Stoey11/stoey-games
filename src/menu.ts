@@ -19,7 +19,7 @@ export function showMainMenu(app: HTMLElement) {
   const screen = document.createElement("div");
   screen.className = "screen";
   screen.innerHTML = `
-    <div class="wii-title">Telefon-Wii</div>
+    <div class="wii-title">Stoey Games</div>
     <div class="wii-subtitle">Vælg et spil</div>
     <div class="game-grid">
       <button class="game-card" data-game="bowling">

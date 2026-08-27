@@ -1,5 +1,5 @@
 // Service worker: netværk først, cache som fallback (så spillet virker offline)
-const CACHE = "telefon-wii-v1";
+const CACHE = "stoey-games-v1";
 
 self.addEventListener("install", () => {
   self.skipWaiting();
